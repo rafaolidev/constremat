@@ -1,0 +1,256 @@
+* {box-sizing: border-box}
+.slide1, .slide2 {display: none}
+img {vertical-align: middle;}
+
+body {
+	margin:0;
+	font-family: arial;
+	font-size: 12px;
+}
+.topo {
+    margin: auto;
+	height:60px;
+    color: white;
+    border-bottom: 5px solid #4F94CD;
+}
+.topoint {
+    width: 100%;
+    max-width: 1040px;
+    height:60px;
+    margin:auto;
+}
+.topoleft {
+	width:65%;
+	height:60px;
+	float:left;
+}
+.toporight{
+    line-height: 50px;
+	text-align: right;
+	width:30%;
+	height:60px;
+	float:right;
+	margin-top:2px
+}
+.topoleft ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.topoleft li {
+    float:left;
+    font-size: 24px;
+	margin-left: 15px;
+	margin-right: 15px;
+	height:60px;
+	line-height:60px;
+}
+
+.topoleft li a {
+	text-decoration: none;
+    color:slategrey;
+}
+.topoleft li .ativo {
+    color: gray;
+}
+.getintouch {
+    display: none;
+}
+.toporight a {
+	float:right;
+}
+.toporight img {
+    width:35px;
+    height:35px;
+	margin-right:4px;
+}
+.middle-content {
+    display: flex;
+    width: 100%;
+    height: 150px;
+}
+.logo img {
+    margin-top: 20px;
+    margin-left:20px;
+    width: 300px;
+}
+.advertising {
+    margin-left: 15%;
+    width: 300px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    font-size: 25px;
+    color: gray;
+}
+.slideshow-container {
+    overflow: hidden;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    max-width: 1000px;
+    position: relative;
+    width: 500px;
+    height: 250px;
+ }
+  
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+ }
+  
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+  }
+.slideshow-container img{
+      width: 100%;
+      height: 500px;
+}
+.clique {
+    margin: auto;
+    display: table;    
+    text-decoration: none;
+    color: gray;
+}
+.clique:hover {
+    text-shadow:2px 2px 8px black;
+    color: white;
+}
+.widget-container {
+    right: 20px;
+    top: 300px;
+    position: absolute;
+    width: 250px;
+    height: 500px;
+    background-color:aliceblue;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow-x:hidden;
+}
+.news-title {
+    width: 250px;
+    height: 30px;
+    display: inline-block;
+    line-height: 30px;
+    background-color:#778899;
+    color: white;
+    font-family:serif;
+    font-size:20px;
+}
+.news {
+    font-family:serif;
+    width: 250;
+    height: 500;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 15px;
+    overflow-y: scroll;
+}
+.enlarge1:hover .mail {
+    width: 50px;
+    height: 50px;
+    transition: 0.6s ease;
+}
+.enlarge2:hover .twitter{
+    width: 50px;
+    height: 50px;
+    transition: 0.6s ease;
+}
+.enlarge3:hover .facebook {
+    width: 50px;
+    height: 50px;
+    transition: 0.6s ease;
+}
+.enlarge4:hover .instagramicon {
+    width: 50px;
+    height: 50px;
+    transition: 0.6s ease;
+}
+.enlarge5:hover .linkedinicon {
+    width: 50px;
+    height: 50px;transition: 0.6s ease;
+}
+.enlarge6:hover .whatsappicon {
+    width: 50px;
+    height: 50px;
+    transition: 0.6s ease;
+}
+.depoimentos-container {
+    display:none;
+    width: 250px;
+    height: 500px;
+    background-color: aliceblue;
+    top: 400px;
+    position: absolute;
+    left: 20px;
+    text-align: center;
+}
+.depoimentos-titulo {
+    font-size: 25px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 63px;
+    background-color: #778899;
+    color: white;
+    font-family: serif;
+}
+.depoimentos {
+    padding:10px;
+}
+.Orçamento:hover, .Seguimentos:hover, .ho:hover, .home:hover {
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+    transition: 0.6s ease;
+    padding:20px;
+    background-color: #4F94CD;
+    line-height: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.rodape {
+    text-align:center;
+    width: 100%;
+    height: 120px;
+    margin-top: 90px;
+    background-image: linear-gradient(#333333,gray);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+.info1 {
+    height: 112px;
+    width: 315px;
+    padding: 15px;
+    display: inline-flex;
+    margin-top: 12px;
+    color: #CFCFCF;
+}
+.info1 span {
+    font-size: 15px;
+    color: #B0C4DE;
+}
+.info1 a {
+    font-size: 15px;
+    color: #CFCFCF;
+    text-decoration: none;
+    display: contents;
+}
