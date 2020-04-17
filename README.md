@@ -6,6 +6,7 @@ Commissioned website
  - HTML
  - CSS 
  - JavaScript
+ - Lightbox Slideshow
 
 You can access the site functionalities
 # https://rafaolidev.github.io/constremat/constremat/index.html
